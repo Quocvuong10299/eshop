@@ -25,16 +25,12 @@
         "@material/textfield": "^7.0.0"
     },
     "lint-staged": {
-        "*.php": [
-            "npm run lint",
-            "npm run format",
-            "git add ."
-        ]
-    },
+    "*.php": "php ./vendor/bin/php-cs-fixer fix --config .php_cs"
+	},
     "husky": {
-    "hooks": {
+    	"hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
-    }
-}
+    		}
+	}
 }
