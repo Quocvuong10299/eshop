@@ -1,0 +1,99 @@
+@import "buttons";
+@import "text";
+@import "font";
+@import "distance";
+@import "colors";
+
+a{
+    text-decoration: none;
+}
+.custom-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    border-radius: 1%;
+    height: 50px;
+}
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .page-item{
+        margin:  0 15px;
+        width: 30px;
+        height: 30px;
+        border:1px solid rgba(0,0,0,.12);;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+    .active{
+        background-color: $color5;
+    }
+    span{
+        color: black!important;
+    }
+}
+.border-none{
+    border: 0!important;
+}
+.fieldset{
+    .field-error{
+        .has-error{
+            .field-input{
+                border: 1px solid red;
+            }
+        }
+    }
+}
+.error{
+    color: red;
+    position: absolute!important;
+    right: 0;
+    top: 35%;
+}
+.r-30{
+    right: 30%!important;
+}
+.mdc-text-field--filled.mdc-text-field--no-label .mdc-text-field__input {
+    height: 100%;
+    padding-left: 3%;
+}
+.icon_input{
+    top: 28%;
+    position: absolute;
+    left: 1%;
+}
+.dialogBlack {
+    margin: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: #000;
+    opacity: 0;
+    z-index: -5;
+    transition: all 0.3s ease-in-out;
+}
+.mdc-dialog__surface {
+    transform: none;
+}
+
+.mdc-dialog__surface-transform {
+    transform: translateY(150px) scale(0.8)!important;
+}
+.group-article{
+    border: 1px solid lightgray;
+    position: relative;
+    margin-top: 2%;
+}
+.article-input{
+    position: absolute;
+    top: -4%;
+    left: 1%;
+    background-color: white!important;
+}

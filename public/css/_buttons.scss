@@ -1,0 +1,101 @@
+@import "colors";
+.btn{
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    display: inline-block;
+
+    &-primary{
+        display: inline-flex;
+        align-items: center;
+        //background-color: $color2;
+        color: white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        vertical-align: center;
+        border: none;
+        &:hover{
+            //background-color: $color1;
+            color: #fff;
+            text-decoration: none;
+            svg{
+                //stroke: #fff;
+                //fill: #fff;
+            }
+            path{
+                fill: #fff;
+            }
+        }
+    }
+    &-create{
+        display: inline-flex;
+        align-items: center;
+        background-color: $color3;
+        color: white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        vertical-align: center;
+        border: none;
+    }
+    &-edit{
+        display: inline-flex;
+        align-items: center;
+        background-color: $color2;
+        color: white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        vertical-align: center;
+        border: none;
+        &:hover{
+            //background-color: $color1;
+            color: #fff;
+            text-decoration: none;
+            svg{
+                //stroke: #fff;
+                //fill: #fff;
+            }
+            path{
+                fill: #fff;
+            }
+        }
+    }
+    &-delete{
+        display: inline-flex;
+        align-items: center;
+        background-color: $color1;
+        color: white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        vertical-align: center;
+        border: none;
+    }
+    &-add{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+//.btn_remove{
+//    position: absolute;
+//    right: 25px;
+//    background-color: rgb(237, 247, 237)!important;
+//    color: #4EA446;
+//    cursor: pointer;
+//}
+.btn-w-main{
+    width: 170px!important;
+}

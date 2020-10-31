@@ -1,0 +1,26 @@
+$color1:#DE3E44;
+$color2:#FEC23E;
+$color3:#4EA446;
+$color4:#F5F5F5;
+$color5:antiquewhite;
+$color6:#ededd5;
+
+.color_button_main{
+    background-color: $color6!important;
+}
+.color_button_return{
+    //background-color: rgba(0,0,0,.06)!important;
+}
+.bg-color-success{
+    background-color: rgb(237, 247, 237) !important;
+}
+.bg-color-fail{
+    background-color: rgb(253, 236, 234) !important;
+}
+.color_button_upload{
+    background-color: lightgray;
+}
+#upload-photo-error{
+    width: 100%;
+    display: contents;
+}
